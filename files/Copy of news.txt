@@ -1,0 +1,30 @@
+^^setURL (http://www.nuestramedicina.com/asp/noticias.asp)
+^^setSpeed(50)
+^^setBackgroundColor(255,255,255)
+^^setForegroundColor(0,64,128)
+^^setFontFace(SansSerif)
+^^setFontSize(12)
+^^setCenter (true)
+^^setBold (true)
+Acupuntura. Que es?
+
+^^setFontSize(12)
+^^setForegroundColor(0,0,0)
+^^setBold (false)
+Un antiguo método curativo
+chino basado en la
+creencia de que por todo
+el cuerpo fluye energía
+llamada "chi".
+^^setFontSize(12)
+^^setForegroundColor(128,0,64)
+
+Para más información
+haga click aquí en
+cualquier momento.
+
+
+
+
+
+

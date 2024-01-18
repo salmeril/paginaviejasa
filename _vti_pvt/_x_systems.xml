@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usagedata>
+<month val="mar 2021" total="8430">
+<item str="http: /www.semrush.com/bot.html" cnt="2162" />
+<item str="Linux" cnt="2007" />
+<item str="http: /ahrefs.com/robot/" cnt="1125" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="848" />
+<item str="Windows NT" cnt="314" />
+<item str="iPhone" cnt="283" />
+<item str="zoominfobot at zoominfo dot com" cnt="228" />
+<item str="Macintosh" cnt="221" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="165" />
+<item str="http: /webmeup-crawler.com/" cnt="137" />
+<item str="https: /babbar.tech/crawler" cnt="132" />
+<item str="https: /seostar.co/robot/" cnt="100" />
+<item str="http: /www.opensiteexplorer.org/dotbot, help@moz.com" cnt="90" />
+<item str="Linux x86_64" cnt="61" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="60" />
+<item str="http: /www.google.com/bot.html" cnt="52" />
+<item str="Windows 2000" cnt="39" />
+<item str="http: /vip0.ru/" cnt="26" />
+<item str="Ubuntu" cnt="22" />
+<item str="http: /yandex.com/bots" cnt="21" />
+<item str="iPad" cnt="19" />
+<item str="https: /domainstats.com/pages/our-bot" cnt="11" />
+<item str="Mail.RU_Bot 2.0" cnt="11" />
+<item str="https: /about.censys.io/" cnt="7" />
+<item str="http: /mj12bot.com/" cnt="6" />
+</month>
+<month val="apr 2021" total="6125">
+<item str="Linux" cnt="2136" />
+<item str="http: /ahrefs.com/robot/" cnt="920" />
+<item str="http: /www.semrush.com/bot.html" cnt="654" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="447" />
+<item str="http: /mj12bot.com/" cnt="351" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="304" />
+<item str="https: /seostar.co/robot/" cnt="303" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="270" />
+<item str="zoominfobot at zoominfo dot com" cnt="153" />
+<item str="Windows NT" cnt="141" />
+<item str="iPhone" cnt="120" />
+<item str="Macintosh" cnt="47" />
+<item str="Java 1.8" cnt="39" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="31" />
+<item str="http: /www.google.com/bot.html" cnt="30" />
+<item str="Windows 2000" cnt="26" />
+<item str="Linux i686" cnt="25" />
+<item str="Linux x86_64" cnt="25" />
+<item str="https: /babbar.tech/crawler" cnt="11" />
+<item str="cow" cnt="7" />
+<item str="http: /yandex.com/bots" cnt="6" />
+<item str="https: /about.censys.io/" cnt="4" />
+<item str="Windows ME" cnt="3" />
+<item str="iPad" cnt="2" />
+<item str="Ubuntu" cnt="2" />
+</month>
+<month val="may 2021" total="7832">
+<item str="Linux" cnt="1861" />
+<item str="http: /webmeup-crawler.com/" cnt="932" />
+<item str="https: /seostar.co/robot/" cnt="931" />
+<item str="http: /www.semrush.com/bot.html" cnt="881" />
+<item str="http: /ahrefs.com/robot/" cnt="732" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="678" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="376" />
+<item str="http: /mj12bot.com/" cnt="305" />
+<item str="Windows NT" cnt="230" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="147" />
+<item str="iPhone" cnt="107" />
+<item str="http: /cs.daum.net/faq/15/4118.html?faqId=28966" cnt="100" />
+<item str="zoominfobot at zoominfo dot com" cnt="67" />
+<item str="Macintosh" cnt="52" />
+<item str="https: /commoncrawl.org/faq/" cnt="51" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="40" />
+<item str="http: /www.google.com/bot.html" cnt="33" />
+<item str="Windows 2000" cnt="29" />
+<item str="Linux x86_64" cnt="23" />
+<item str="http: /yandex.com/bots" cnt="22" />
+<item str="Ubuntu" cnt="7" />
+<item str="iPad" cnt="6" />
+<item str="https: /about.censys.io/" cnt="4" />
+<item str="Auto" cnt="3" />
+<item str="http: /www.baidu.com/search/spider.html" cnt="3" />
+</month>
+<month val="jun 2021" total="6553">
+<item str="https: /seostar.co/robot/" cnt="1366" />
+<item str="Linux" cnt="1073" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="859" />
+<item str="http: /www.semrush.com/bot.html" cnt="678" />
+<item str="http: /ahrefs.com/robot/" cnt="576" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="472" />
+<item str="http: /webmeup-crawler.com/" cnt="371" />
+<item str="Macintosh" cnt="276" />
+<item str="Windows NT" cnt="171" />
+<item str="Windows 2000" cnt="118" />
+<item str="zoominfobot at zoominfo dot com" cnt="116" />
+<item str="iPhone" cnt="62" />
+<item str="Linux x86_64" cnt="52" />
+<item str="Java 1.8" cnt="37" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="32" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="32" />
+<item str="Linux i686" cnt="27" />
+<item str="http: /www.google.com/bot.html" cnt="20" />
+<item str="http: /cs.daum.net/faq/15/4118.html?faqId=28966" cnt="11" />
+<item str="http: /yandex.com/bots" cnt="5" />
+<item str="http: /mj12bot.com/" cnt="5" />
+<item str="https: /about.censys.io/" cnt="4" />
+<item str="FreeBSD i386" cnt="4" />
+<item str="iPad" cnt="3" />
+<item str="Windows 95" cnt="3" />
+</month>
+<month val="jul 2021" total="8207">
+<item str="Linux" cnt="2305" />
+<item str="http: /ahrefs.com/robot/" cnt="1388" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="996" />
+<item str="http: /www.semrush.com/bot.html" cnt="786" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="712" />
+<item str="https: /babbar.tech/crawler" cnt="555" />
+<item str="http: /mj12bot.com/" cnt="335" />
+<item str="Windows NT" cnt="177" />
+<item str="iPhone" cnt="132" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="122" />
+<item str="http: /www.google.com/bot.html" cnt="96" />
+<item str="zoominfobot at zoominfo dot com" cnt="88" />
+<item str="Macintosh" cnt="80" />
+<item str="https: /www.seokicks.de/robot.html" cnt="62" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="44" />
+<item str="cow" cnt="19" />
+<item str="Linux x86_64" cnt="15" />
+<item str="Windows 2000" cnt="14" />
+<item str="http: /webmeup-crawler.com/" cnt="12" />
+<item str="Windows ME" cnt="9" />
+<item str="http: /yandex.com/bots" cnt="8" />
+<item str="iPad" cnt="7" />
+<item str="Windows 95" cnt="6" />
+<item str="https: /www.qwant.com/" cnt="6" />
+<item str="KHTML, like Gecko" cnt="3" />
+</month>
+<month val="aug 2021" total="7062">
+<item str="Linux" cnt="2286" />
+<item str="http: /megaindex.com/crawler" cnt="1019" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="861" />
+<item str="http: /ahrefs.com/robot/" cnt="675" />
+<item str="http: /www.semrush.com/bot.html" cnt="661" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="273" />
+<item str="http: /www.google.com/bot.html" cnt="260" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="253" />
+<item str="http: /yandex.com/bots" cnt="125" />
+<item str="zoominfobot at zoominfo dot com" cnt="104" />
+<item str="Windows NT" cnt="101" />
+<item str="iPhone" cnt="81" />
+<item str="https: /www.seokicks.de/robot.html" cnt="72" />
+<item str="http: /mj12bot.com/" cnt="40" />
+<item str="Linux x86_64" cnt="39" />
+<item str="Macintosh" cnt="39" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="30" />
+<item str="Windows 2000" cnt="11" />
+<item str="https: /about.censys.io/" cnt="6" />
+<item str="iPad" cnt="5" />
+<item str="http: /www.baidu.com/search/spider.html" cnt="4" />
+<item str="Ubuntu" cnt="4" />
+<item str="Mail.RU_Bot 2.0" cnt="4" />
+<item str="cow" cnt="3" />
+<item str="http: /duckduckgo.com" cnt="2" />
+</month>
+<month val="sep 2021" total="5897">
+<item str="Linux" cnt="1433" />
+<item str="https: /www.seokicks.de/robot.html" cnt="1148" />
+<item str="http: /ahrefs.com/robot/" cnt="811" />
+<item str="http: /www.semrush.com/bot.html" cnt="713" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="404" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="296" />
+<item str="Windows NT" cnt="179" />
+<item str="iPhone" cnt="127" />
+<item str="https: /commoncrawl.org/faq/" cnt="103" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="95" />
+<item str="zoominfobot at zoominfo dot com" cnt="88" />
+<item str="http: /yandex.com/bots" cnt="61" />
+<item str="https: /www.qwant.com/" cnt="52" />
+<item str="http: /www.google.com/bot.html" cnt="51" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="32" />
+<item str="Macintosh" cnt="28" />
+<item str="cow" cnt="15" />
+<item str="Windows 2000" cnt="15" />
+<item str="Linux x86_64" cnt="14" />
+<item str="CrOS x86_64 13982.88.0" cnt="14" />
+<item str="https: /about.censys.io/" cnt="6" />
+<item str="Ubuntu" cnt="5" />
+<item str="compatible" cnt="4" />
+<item str="https: /www.mojeek.com/bot.html" cnt="3" />
+<item str="Windows ME" cnt="3" />
+</month>
+<month val="oct 2021" total="7676">
+<item str="http: /megaindex.com/crawler" cnt="2038" />
+<item str="http: /webmeup-crawler.com/" cnt="1258" />
+<item str="http: /www.semrush.com/bot.html" cnt="937" />
+<item str="http: /ahrefs.com/robot/" cnt="677" />
+<item str="https: /dataforseo.com/dataforseo-bot" cnt="623" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="552" />
+<item str="Linux" cnt="494" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="174" />
+<item str="Windows NT" cnt="142" />
+<item str="http: /mj12bot.com/" cnt="128" />
+<item str="http: /yandex.com/bots" cnt="97" />
+<item str="Macintosh" cnt="82" />
+<item str="iPhone" cnt="79" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="56" />
+<item str="zoominfobot at zoominfo dot com" cnt="48" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="41" />
+<item str="http: /www.google.com/bot.html" cnt="31" />
+<item str="Linux x86_64" cnt="31" />
+<item str="cow" cnt="21" />
+<item str="Windows 2000" cnt="18" />
+<item str="http: /vip0.ru/" cnt="14" />
+<item str="https: /about.censys.io/" cnt="6" />
+<item str="compatible" cnt="4" />
+<item str="Mail.RU_Bot 2.0" cnt="4" />
+<item str="https: /www.mojeek.com/bot.html" cnt="3" />
+</month>
+<month val="nov 2021" total="4870">
+<item str="Linux" cnt="1048" />
+<item str="http: /www.semrush.com/bot.html" cnt="894" />
+<item str="http: /ahrefs.com/robot/" cnt="879" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="546" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="366" />
+<item str="Windows 2000" cnt="307" />
+<item str="Windows NT" cnt="159" />
+<item str="iPhone" cnt="134" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="121" />
+<item str="http: /yandex.com/bots" cnt="57" />
+<item str="Linux x86_64" cnt="54" />
+<item str="Macintosh" cnt="45" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="40" />
+<item str="compatible" cnt="37" />
+<item str="http: /www.google.com/bot.html" cnt="29" />
+<item str="zoominfobot at zoominfo dot com" cnt="24" />
+<item str="cow" cnt="15" />
+<item str="https: /about.censys.io/" cnt="7" />
+<item str="Mail.RU_Bot 2.0" cnt="7" />
+<item str="compatible- MSIE 6.0- Windows NT 5.1- SV1- .NET CLR 1.1.4322" cnt="3" />
+<item str="https: /www.mojeek.com/bot.html" cnt="3" />
+<item str="Ubuntu" cnt="3" />
+<item str="In_the_test_phase,_if_the_ThinkChaos_brings_you_trouble,_please_add_disallow_to_the_robots.txt._Thank_you." cnt="2" />
+<item str="http: /duckduckgo.com" cnt="1" />
+<item str="mailto:abuse-6337@webpros.com" cnt="1" />
+</month>
+<month val="dec 2021" total="6715">
+<item str="http: /webmeup-crawler.com/" cnt="1150" />
+<item str="http: /www.website-datenbank.de/" cnt="1000" />
+<item str="http: /www.semrush.com/bot.html" cnt="828" />
+<item str="Linux" cnt="814" />
+<item str="http: /ahrefs.com/robot/" cnt="699" />
+<item str="https: /seostar.co/robot/" cnt="598" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="239" />
+<item str="zoominfobot at zoominfo dot com" cnt="197" />
+<item str="Windows NT" cnt="143" />
+<item str="https: /babbar.tech/crawler" cnt="119" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="99" />
+<item str="https: /www.seokicks.de/robot.html" cnt="86" />
+<item str="iPhone" cnt="69" />
+<item str="http: /mj12bot.com/" cnt="59" />
+<item str="Macintosh" cnt="45" />
+<item str="http: /www.google.com/bot.html" cnt="38" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="32" />
+<item str="Ubuntu" cnt="22" />
+<item str="Linux x86_64" cnt="19" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="16" />
+<item str="Windows 2000" cnt="11" />
+<item str="http: /yandex.com/bots" cnt="11" />
+<item str="cow" cnt="10" />
+<item str="platform" cnt="4" />
+<item str="Fedora" cnt="4" />
+</month>
+<month val="jan 2022" total="5546">
+<item str="http: /www.semrush.com/bot.html" cnt="964" />
+<item str="http: /ahrefs.com/robot/" cnt="830" />
+<item str="Linux" cnt="786" />
+<item str="http: /mj12bot.com/" cnt="603" />
+<item str="https: /seostar.co/robot/" cnt="400" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="326" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="282" />
+<item str="http: /webmeup-crawler.com/" cnt="202" />
+<item str="http: /www.google.com/bot.html" cnt="189" />
+<item str="Windows NT" cnt="138" />
+<item str="Macintosh" cnt="132" />
+<item str="https: /commoncrawl.org/faq/" cnt="118" />
+<item str="zoominfobot at zoominfo dot com" cnt="96" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="86" />
+<item str="iPhone" cnt="62" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="41" />
+<item str="Windows 2000" cnt="33" />
+<item str="Mail.RU_Bot 2.0" cnt="27" />
+<item str="https: /www.webgains.com/public/en/" cnt="25" />
+<item str="Ubuntu" cnt="23" />
+<item str="Linux x86_64" cnt="15" />
+<item str="compatible" cnt="12" />
+<item str="https: /www.qwant.com/" cnt="12" />
+<item str="cow" cnt="11" />
+<item str="http: /yandex.com/bots" cnt="8" />
+</month>
+<month val="feb 2022" total="7149">
+<item str="http: /webmeup-crawler.com/" cnt="1663" />
+<item str="https: /babbar.tech/crawler" cnt="1262" />
+<item str="Linux" cnt="991" />
+<item str="http: /ahrefs.com/robot/" cnt="782" />
+<item str="http: /www.semrush.com/bot.html" cnt="710" />
+<item str="Windows NT" cnt="306" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="291" />
+<item str="iPhone" cnt="278" />
+<item str="http: /www.google.com/bot.html" cnt="242" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="182" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="85" />
+<item str="Linux x86_64" cnt="48" />
+<item str="https: /www.seokicks.de/robot.html" cnt="44" />
+<item str="http: /yandex.com/bots" cnt="35" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="32" />
+<item str="http: /mj12bot.com/" cnt="30" />
+<item str="Macintosh" cnt="30" />
+<item str="zoominfobot at zoominfo dot com" cnt="24" />
+<item str="Ubuntu" cnt="19" />
+<item str="Windows 2000" cnt="9" />
+<item str="https: /www.qwant.com/" cnt="7" />
+<item str="cow" cnt="5" />
+<item str="http: /www.facebook.com/externalhit_uatext.php" cnt="4" />
+<item str="https: /about.censys.io/" cnt="4" />
+<item str="Fedora" cnt="3" />
+</month>
+<month val="mar 2022" total="1125">
+<item str="Linux" cnt="215" />
+<item str="http: /ahrefs.com/robot/" cnt="199" />
+<item str="http: /www.semrush.com/bot.html" cnt="183" />
+<item str="http: /yandex.com/bots" cnt="125" />
+<item str="http: /www.bing.com/bingbot.htm" cnt="109" />
+<item str="https: /seostar.co/robot/" cnt="100" />
+<item str="http: /www.google.com/bot.html" cnt="38" />
+<item str="https: /opensiteexplorer.org/dotbot" cnt="28" />
+<item str="Windows NT" cnt="28" />
+<item str="http: /www.sogou.com/docs/help/webmasters.htm#07" cnt="27" />
+<item str="Macintosh" cnt="22" />
+<item str="https: /www.qwant.com/" cnt="11" />
+<item str="http: /www.google.com/feedfetcher.html" cnt="8" />
+<item str="iPhone" cnt="7" />
+<item str="Ubuntu" cnt="6" />
+<item str="Linux x86_64" cnt="3" />
+<item str="https: /headline.com/legal/crawler" cnt="1" />
+<item str="https: /about.censys.io/" cnt="1" />
+<item str="0.9xpre12" cnt="1" />
+<item str="http: /tchelebi.io" cnt="1" />
+</month>
+</usagedata>

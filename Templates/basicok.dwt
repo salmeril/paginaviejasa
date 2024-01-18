@@ -1,0 +1,138 @@
+<html>
+
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>Untitled Document</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v2.0
+  if (document.MM_swapImgData != null)
+    for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+      document.MM_swapImgData[i].src = document.MM_swapImgData[i+1];
+}
+
+function MM_preloadImages() { //v2.0
+  if (document.images) {
+    var imgFiles = MM_preloadImages.arguments;
+    if (document.preloadArray==null) document.preloadArray = new Array();
+    var i = document.preloadArray.length;
+    with (document) for (var j=0; j<imgFiles.length; j++) if (imgFiles[j].charAt(0)!="#"){
+      preloadArray[i] = new Image;
+      preloadArray[i++].src = imgFiles[j];
+  } }
+}
+
+function MM_swapImage() { //v2.0
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src = MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="MM_preloadImages('../images/homefoto.gif','../images/home1.gif','#956982029010');MM_preloadImages('../images/enfermedadesfoto.gif','../images/enfermedades1.gif','#956981762950');MM_preloadImages('../images/topicosfoto.gif','../images/topicos1.gif','#956981785690');MM_preloadImages('../images/preguntasfoto.gif','../images/preguntas1.gif','#956981802280');MM_preloadImages('../images/drarmozafoto.gif','../images/drarmoza1.gif','#956981870990')">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr> 
+    <td align="right" width="10%" valign="bottom" background="../images/square.gif"><img src="../images/homefoto.gif" width="150" height="90" name="foto"></td>
+    <td> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="center" background="../images/square.gif"><img src="../images/logo.gif" width="377" height="90"></td>
+          <td align="right" background="../images/square.gif"><img src="../images/right.gif" width="13" height="90"></td>
+          <td width="10%" bgcolor="#006FA4">
+            <table border="0" cellpadding="0" cellspacing="0" align="center">
+              <tr align="center"> 
+                <td><img src="../images/buscar.gif"></td>
+              </tr>
+              <tr align="center"> 
+                <td> 
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tr valign="bottom"> 
+                      <td> 
+                        <form method="POST" action="/asp/enfnom.asp" onSubmit="return FrontPage_Form1_Validator(this)" name="FrontPage_Form1">
+                          <!--webbot bot="Validation" B-Value-Required="TRUE" --> 
+                          <input type="text" name="nombre" size="13">
+                          <input type="image" img src="/images/ir.gif" name="buscar" border="0" width="25" height="19">
+                        </form>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td width="10%" height="10" bgcolor="#006FA4"> <img src="../images/barra.gif" width="133" height="15"> 
+    </td>
+    <td valign="bottom" bgcolor="#006FA4" height="10">&nbsp; </td>
+  </tr>
+  <tr> 
+    <td valign="top" align="right" width="10%" bgcolor="#006FA4"> 
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td><img src="../images/top.gif" width="150"></td>
+        </tr>
+        <tr> 
+          <td><a href="../index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.foto','document.foto','../images/homefoto.gif','document.home','document.home','../images/home1.gif','#956982029010')"><img src="../images/home.gif" width="150" height="30" name="home" border="0"></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../asp/enfermedades.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.foto','document.foto','../images/enfermedadesfoto.gif','document.enfermedades','document.enfermedades','../images/enfermedades1.gif','#956981762950')"><img src="../images/enfermedades.gif" width="150" height="30" name="enfermedades" border="0"></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../asp/articulos.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.foto','document.foto','../images/topicosfoto.gif','document.topicos','document.topicos','../images/topicos1.gif','#956981785690')"><img src="../images/topicos.gif" width="150" height="30" name="topicos" border="0"></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../asp/preguntas.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.foto','document.foto','../images/preguntasfoto.gif','document.preguntas','document.preguntas','../images/preguntas1.gif','#956981802280')"><img src="../images/preguntas.gif" width="150" height="30" name="preguntas" border="0"></a></td>
+        </tr>
+        <tr> 
+          <td><a href="../drarmoza.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('document.foto','document.foto','../images/drarmozafoto.gif','document.drarmoza','document.drarmoza','../images/drarmoza1.gif','#956981870990')"><img src="../images/drarmoza.gif" width="150" height="30" name="drarmoza" border="0"></a></td>
+        </tr>
+        <tr> 
+          <td><img src="../images/bottom.gif" width="150"></td>
+        </tr>
+        <tr bgcolor="#006FA4" align="center" valign="middle"> 
+          <td>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p><br>
+              <font color="#FFCCCC"><b><font color="#FFAC80" face="Verdana, Arial, Helvetica, sans-serif" size="2">1-800-522-7099</font></b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><br>
+              <font color="#FFAC80"><b>1-718-651-6677</b></font></font> </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td align="left" valign="top"><!-- #BeginEditable "contenido" --> 
+      <p>&nbsp;</p>
+      <!-- #EndEditable --></td>
+  </tr>
+  <tr valign="middle"> 
+    <td width="10%" bgcolor="#89B0D8" height="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="Arial, Helvetica, sans-serif" size="1"><a href="/disclaimer.htm">DISCLAIMER</a></font></td>
+    <td bgcolor="#89B0D8" align="center" valign="middle"><font face="Arial, Helvetica, sans-serif" size="1">[<a href="../index.htm">HOME</a>] 
+      [<a href="../asp/enfermedades.asp">ENFERMEDADES</a>] [<a href="../asp/articulos.asp">TOPICOS</a>] 
+      [<a href="../asp/articulos.asp">PREGUNTAS</a>] [<a href="../drarmoza.htm">DR.ARMOZA</a>]</font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="right" width="10%">&nbsp;</td>
+    <td align="center" valign="middle"><font size="1">Copyright © 2000 NuestraMedicina.com. 
+      All rights reserved.</font><font face="Arial, Helvetica, sans-serif" size="1"></font></td>
+  </tr>
+</table>
+</body>
+</html>

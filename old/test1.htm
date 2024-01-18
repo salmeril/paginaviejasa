@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function P7AniMagic(el, x, y, a, b, c, s) { //v2.8 PVII
+ var g,elo=el,f="",m=false,d="";x=parseInt(x);y=parseInt(y);
+ var t = 'g.p7Magic = setTimeout("P7AniMagic(\''+elo+'\','; 
+ if ((g=MM_findObj(el))!=null) {d=(document.layers)?g:g.style;}else{return;}
+ if (parseInt(s)>0) {eval(t+x+','+y+','+a+','+b+','+c+',0)",' + s+')');return;}
+ var xx=(parseInt(d.left))?parseInt(d.left):0;
+ var yy=(parseInt(d.top))?parseInt(d.top):0;
+ if(parseInt(c)==1) {x+=xx;y+=yy;m=true;c=0;}
+ else if (c==2) {m=false;clearTimeout(g.p7Magic);}
+ else {var i=parseInt(a);
+  if (eval(g.moved)){clearTimeout(g.p7Magic);}
+  if (xx<x){xx+=i;m=true;if(xx>x){xx=x;}}
+  if (xx>x){xx-=i;m=true;if(xx<x){xx=x;}}
+  if (yy<y){yy+=i;m=true;if(yy>y){yy=y;}}
+  if (yy>y){yy-=i;m=true;if(yy<y){yy=y;}}}
+ if (m){if((parseInt(navigator.appVersion)>4 || navigator.userAgent.indexOf("MSIE")>-1)&& navigator.userAgent.indexOf("Opera")==-1){
+    xx+="px";yy+="px";}
+  d.left=xx;d.top=yy;g.moved=true;eval(t+x+','+y+','+a+','+b+','+c+',0)",'+b+')');
+  }else {g.moved=false;}
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="P7AniMagic('content',10,5,500,30,0,0)">
+<div id="container" style="position:absolute; left:190; top:60; width:220; height:250; z-index:3; overflow: hidden; clip: rect(0 220 250 0); background-color: #FF9999; layer-background-color: #FF9999; border: 1px none #000000"> 
+  <div id="content" style="position:absolute; width:200px; z-index:1; left: 10; top: 5">
+    <table width="200" border="0">
+      <tr>
+        <td>
+          <p>I<img src="labels/abc.jpg" width="115" height="173"></p>
+          <p><img src="labels/acidophilus.jpg" width="123" height="182"></p>
+          <p><img src="labels/advanced.jpg" width="115" height="173"></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div id="control" style="position:absolute; left:190; top:325; width:220; z-index:4">
+  <table width="200" border="0" align="center">
+    <tr align="center"> 
+      <td><a href="javascript:;" onClick="P7AniMagic('content',10,-150,12,30,0,0)">up</a></td>
+      <td><a href="javascript:;" onClick="P7AniMagic('content',10,-300,12,30,0,0)">down</a></td>
+      <td><a href="javascript:;" onClick="P7AniMagic('content',10,-450,12,30,0,0)">top</a></td>
+    </tr>
+    <tr align="center">
+      <td><a href="javascript:;" onClick="P7AniMagic('content',10,0,12,30,0,0)">one</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

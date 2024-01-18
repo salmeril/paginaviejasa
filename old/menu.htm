@@ -1,0 +1,121 @@
+<%@LANGUAGE="VBSCRIPT"%><%
+' *** Insert Record: construct a sql insert statement and execute it
+MM_editAction = CStr(Request("URL"))
+If (Request.QueryString <> "") Then
+  MM_editAction = MM_editAction & "?" & Request.QueryString
+End If
+If (CStr(Request("MM_insert")) <> "") Then
+
+  MM_tableName = "recomendados"
+  MM_fields = "nombre,nombre,',none,'',email,email,',none,'',productos,productos,',none,'',total,total,none,none,NULL"
+  MM_redirectPage = "menu.htm"
+
+  ' create the insert sql statement
+  MM_tableValues = ""
+  MM_dbValues = ""
+  MM_fieldsArray = Split(MM_fields, ",")
+  For i = LBound(MM_fieldsArray) To UBound(MM_fieldsArray) Step 5
+    FormVal = CStr(Request.Form(MM_fieldsArray(i)))
+    Delim = MM_fieldsArray(i+2)
+    If (Delim = "none") Then Delim = ""
+    AltVal = MM_fieldsArray(i+3)
+    If (AltVal = "none") Then AltVal = ""
+    EmptyVal = MM_fieldsArray(i+4)
+    If (EmptyVal = "none") Then EmptyVal = ""
+    If (FormVal = "") Then
+      FormVal = EmptyVal
+    Else
+      If (AltVal <> "") Then
+        FormVal = AltVal
+      ElseIf (Delim = "'") Then  ' escape quotes
+        FormVal = "'" & Replace(FormVal,"'","''") & "'"
+      Else
+        FormVal = Delim + FormVal + Delim
+      End If
+    End If
+    If (i <> LBound(MM_fieldsArray)) Then
+      MM_tableValues = MM_tableValues & ","
+      MM_dbValues = MM_dbValues & ","
+    End if
+    MM_tableValues = MM_tableValues & MM_fieldsArray(i+1)
+    MM_dbValues = MM_dbValues & FormVal
+  Next
+  MM_insertStr = "insert into " & MM_tableName & " (" & MM_tableValues & ") values (" & MM_dbValues & ")"
+
+  ' finish the sql and execute it
+  Set MM_insertCmd = Server.CreateObject("ADODB.Command")
+  MM_insertCmd.ActiveConnection = "dsn=quotes;"
+  MM_insertCmd.CommandText = MM_insertStr
+  MM_insertCmd.Execute
+
+  ' redirect with URL parameters
+  If (MM_redirectPage = "") Then
+    MM_redirectPage = CStr(Request("URL"))
+  End If
+  If (InStr(1, MM_redirectPage, "?", vbTextCompare) = 0 And (Request.QueryString <> "")) Then
+    MM_redirectPage = MM_redirectPage & "?" & Request.QueryString
+  End If
+  Call Response.Redirect(MM_redirectPage)
+End If
+%> 
+<%
+set rsrecomendados = Server.CreateObject("ADODB.Recordset")
+rsrecomendados.ActiveConnection = "dsn=quotes;"
+rsrecomendados.Source = "SELECT * FROM recomendados"
+rsrecomendados.CursorType = 0
+rsrecomendados.CursorLocation = 2
+rsrecomendados.LockType = 3
+rsrecomendados.Open
+rsrecomendados_numRows = 0
+%> 
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF">
+<table border="0" width="100%">
+  <tr> 
+    <td width="20">&nbsp;</td>
+    <td height="5">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="20">&nbsp;</td>
+    <td height="30"> 
+      <p><font face="Arial, Helvetica, sans-serif"><b><font color="#800040">AGREGAR</font></b></font> 
+    </td>
+  </tr>
+  <tr> 
+    <td width="20" align="right"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif"> </font> 
+    </td>
+    <td> 
+      <form name="productos recomendados" method="post" action="<%=MM_editAction%>">
+        <p>Nombre 
+          <input type="text" name="nombre">
+          <br>
+          Email &nbsp;&nbsp;&nbsp; 
+          <input type="text" name="email">
+          <br>
+        </p>
+        <p>Productos<br>
+          <textarea name="productos" cols="50" rows="10"></textarea>
+        </p>
+        <p>Total 
+          <input type="text" name="total">
+        </p>
+        <p> 
+          <input type="submit" name="agregar" value="agregar">
+        </p>
+        <input type="hidden" name="MM_insert" value="true">
+      </form>
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font> 
+    </td>
+  </tr>
+  <tr> 
+    <td width="20" align="right">&nbsp;</td>
+    <td height="5">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

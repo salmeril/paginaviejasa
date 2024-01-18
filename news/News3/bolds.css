@@ -1,0 +1,10 @@
+.Bolds {  font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bolder; font-style: italic}
+.normals {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: #003366}
+.Titulares {  font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bolder}
+.Texto {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333}
+.epigrafes {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bolder}
+.dialogo {  font-family: "Times New Roman", Times, serif; font-size: 14px; font-style: italic}
+.links {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; text-decoration: none; font-style: italic; color: #990000}
+.links_chicos {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: italic; font-weight: bold; color: #003366}
+.Titulareschicos {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: italic; color: #993333; text-decoration: none; font-weight: bold}
+.sinsubra {  text-decoration: none}

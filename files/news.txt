@@ -1,0 +1,25 @@
+^^setURL (http://www.nuestramedicina.com/news)
+^^setSpeed(50)
+^^setBackgroundColor(255,255,255)
+^^setForegroundColor(0,64,128)
+^^setFontFace(SansSerif)
+^^setFontSize(12)
+^^setCenter (true)
+^^setBold (true)
+Novedades
+
+^^setFontSize(12)
+^^setForegroundColor(0,0,0)
+^^setBold (false)
+
+Haga click aquí
+para ver nuestra pagina
+de Novedades.
+
+^^setFontSize(12)
+^^setForegroundColor(128,0,64)
+
+
+
+
+

@@ -1,0 +1,9 @@
+@HEADMilk Thistle. El Protector del Higado.
+@URLhttp://www.nuestramedicina.com/asp/noticias.asp
+@MSGNo existe ninguna droga en el mercado que pueda proteger al hígado de la manera suave que puede una hierba.
+@END
+
+@HEAD     
+@URLhttp://www.nuestramedicina.com/asp/noticias.asp
+@MSGPara más información haga click aqui en cualquier momento
+@END
